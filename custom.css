@@ -1,0 +1,165 @@
+.shop-item-details{
+    text-align: right;
+    /* padding-top: -100px;     */
+}
+
+header .navbar{
+    padding: 0;
+}
+
+.shop-item-button{
+    background-color: #405f33;
+    border-color: #405f33;
+    font-size: 12px;
+}
+.shop-item-button:hover{
+    background-color: #f33f3f;
+    border-color: #f33f3f;
+}
+
+/* .shop-item {
+    margin: 30px;
+} */
+
+.shop-item-title {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.shop-item-image {
+    height: 250px;
+}
+
+/* .shop-item-details {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+} */
+
+.shop-item-price {
+    flex-grow: 1;
+    color: #333;
+}
+
+.shop-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+    /* About Section */
+.left-content p{
+    color: #405f33;
+    /* font-size: 16px; */
+}
+.left-content p strong{
+    font-size: 18px;
+}
+
+       /* Cart Section */
+.cart span{
+    padding-left: 10px;
+}
+
+.products-container {
+    max-width: 900px;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.products-container ion-icon {
+    font-size: 25px;
+    color: #405f33;
+    /* margin-top: 60px; */
+}
+
+.product-header {
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 4px solid #405f33;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.product-title {
+    width: 450px;
+    padding-left: 25px;
+}
+
+.price {
+    width: 20%;
+    border-bottom: 1px solid #405f33;    
+    display: flex;
+    align-items: center;
+}
+.quantity {
+    width: 15%;
+    border-bottom: 1px solid #405f33;
+    display: flex;
+    align-items: center;
+}
+.total {
+    width: 20%;
+    border-bottom: 1px solid #405f33;
+    display: flex;
+    align-items: center;
+}
+.products {
+    width: 45%;    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 4px solid #405f33;
+}
+
+.product ion-icon {
+    cursor: pointer;
+}
+
+.products {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.products img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin: 10px;
+}
+
+.basketTotalContainer {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.basketTotalTitle {
+    width: 30%;
+}
+
+.basketTotal {
+    width: 10%;
+}
+
+.btn-purchase {
+    float: right;
+    background-color: #405f33;
+    border-color: #405f33;
+}
+
+.btn-purchase:hover {
+    background-color: #f33f3f;
+    border-color: #405f33;
+
+}
