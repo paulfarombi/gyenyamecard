@@ -12,7 +12,10 @@
       href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
 
     <title>Cart Page</title>
 
@@ -23,8 +26,7 @@
     <link rel="stylesheet" href="assets/css/fontawesome.css" />
     <link rel="stylesheet" href="assets/css/main.css" />
     <link rel="stylesheet" href="assets/css/owl.css" />
-    <link rel="stylesheet" href="custom.css" />
-    <!-- <script src="./assets/js/cart1.js" async></script> -->
+    <link rel="stylesheet" href="./custom.css" />
   </head>
 
   <body>
@@ -40,7 +42,7 @@
 
     <!-- Header -->
     <header class="">
-      <nav class="navbar navbar-expand-lg">
+      <nav class="navbar navbar-expand-lg navcart">
         <div class="container">
           <div class="logo">
             <a class="navbar-brand" href="index.html">
@@ -56,6 +58,7 @@
           <button
             class="navbar-toggler"
             type="button"
+            
             data-toggle="collapse"
             data-target="#navbarResponsive"
             aria-controls="navbarResponsive"
@@ -93,9 +96,9 @@
     </header>
 cart
  <!-- Cart Section -->
-    <div class="products-container">
-      <div class="product-header">
-        <h5 class="product-title">PRODUCT</h5>
+    <div class="cart-container">
+      <div class="cart-header">
+        <h5 class="cart-products">PRODUCTS</h5>
         <h5 class="price">PRICE</h5>
         <h5 class="quantity">QUANTITY</h5>
         <h5 class="total">TOTAL</h5>
@@ -103,50 +106,66 @@ cart
       <div class="products">
         
       </div>
-      <button class="btn btn-primary btn-purchase" type="button">
-        PURCHASE
-      </button>
+      <div class="checkout">
+        <a href="payment.html"><button class="btn btn-checkout" type="button">CHECKOUT</button></a>
+      </div>
     </div>
    
     <!-- Footer Section -->
     <footer>
       <div class="container">
-        <div class="row">
           <div class="col-md-12">
             <div class="inner-content">
-          <div class="logo-footer">
-            <img src="./Images/Gye Nyame logo-white.png" height="200px" width="140px" alt="logo-footer">
-            <h4><span>Gye Nyame</span> <br>Fuel Saving Card</h4>
-          </div>
-          <div class="groups">
-            <div class="group-1">
-                <ul>
+              <div class="logo-footer">
+                <img
+                  src="./Images/Gye Nyame logo-white.png"
+                  height="180px"
+                  width="130px"
+                  alt="logo footer"
+                />
+                <h4><span>Gye Nyame</span> <br />Fuel Saving Card</h4>
+              </div>
+              <div class="groups">
+                <div class="group-1">
+                  <ul>
                     <li class="footer-head">RESOURCES</li>
-                    <li>Blog</li>
-                    <li>Customer Stories</li>
-                    <li>Support</li>
-                </ul>
-            </div>
-            <div class="group-2">
-                <ul>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Customer Stories</a></li>
+                    <li><a href="#">Support</a></li>
+                  </ul>
+                </div>
+                <div class="group-2">
+                  <ul>
                     <li class="footer-head">COMPANY</li>
-                    <li>About Us</li>
-                    <li>Careers</li>
-                    <li>Contacts</li>
-                </ul>
-            </div>
-            <div class="socials">
-                <ul>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="contact.html">Contacts</a></li>
+                    <li><a href="faqs.html">FAQs</a></li>
+                  </ul>
+                </div>
+                <div class="socials">
+                  <ul>
                     <li class="footer-head">SOCIALS</li>
-                    <li><a href="https://facebook.com/"><i class="fa-brands fa-facebook-square"></i>Facebook</a></li>
-                    <li><a href="https://instagram.com/"><i class="fa-brands fa-instagram"></i>Instagram</a></li>
-                    <li><a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i>Twitter</a></li>
-                </ul>
+                    <li>
+                      <a href="https://facebook.com/"
+                        ><i class="fa-brands fa-facebook-square"></i>Facebook</a
+                      >
+                    </li>
+                    <li>
+                      <a href="https://instagram.com/"
+                        ><i class="fa-brands fa-instagram"></i>Instagram</a
+                      >
+                    </li>
+                    <li>
+                      <a href="https://twitter.com/"
+                        ><i class="fa-brands fa-twitter"></i>Twitter</a
+                      >
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        </div>
       </div>
     </footer>
 
